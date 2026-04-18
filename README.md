@@ -1,5 +1,6 @@
 # SQL Forge Studio 1.0
-AI-Augmented Database Management System Designed and developed a desktop-native Database IDE focused on data privacy, offline capability, and workflow acceleration. The application bridges the gap between traditional database management and modern generative AI by allowing users to query complex schemas using natural language.
+Inspired by Chat2DB. Coding Agent: Google/Gemma 4.0
+It is an AI-Augmented Database Management System Designed and developed a desktop-native Database IDE focused on data privacy, offline capability, and workflow acceleration. The application bridges the gap between traditional database management and modern generative AI by allowing users to query complex schemas using natural language.
 
 By integrating directly with LM Studio's REST API, the tool processes all AI requests locally, ensuring zero data leakage—a critical requirement for sensitive or air-gapped environments. The architecture features a custom-built, token-optimized schema caching engine that condenses massive database structures into AI-friendly blueprints, resulting in lightning-fast response times. The UI is built entirely in WPF with a custom, high-contrast theming engine, offering a professional, distraction-free environment for data analysis, complete with automated history archiving and HTML/PDF export capabilities.
 
