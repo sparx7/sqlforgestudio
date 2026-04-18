@@ -1,0 +1,46 @@
+﻿<Window x:Class="SqlForgeWpf.Windows.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="About SQL Forge" Height="250" Width="450"
+        WindowStyle="None" AllowsTransparency="True" Background="Transparent"
+        WindowStartupLocation="CenterOwner" FontFamily="Segoe UI">
+
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="Window.Loaded">
+            <BeginStoryboard>
+                <Storyboard>
+                    <DoubleAnimation Storyboard.TargetName="MainCard" Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:0.4"/>
+                    <ThicknessAnimation Storyboard.TargetName="MainCard" Storyboard.TargetProperty="Margin" From="0,40,0,0" To="0,0,0,0" Duration="0:0:0.5">
+                        <ThicknessAnimation.EasingFunction>
+                            <CubicEase EasingMode="EaseOut"/>
+                        </ThicknessAnimation.EasingFunction>
+                    </ThicknessAnimation>
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+    </Window.Triggers>
+
+    <Border x:Name="MainCard" Background="{DynamicResource BgPanel}" CornerRadius="12" BorderBrush="{DynamicResource BorderInput}" BorderThickness="1" Margin="0" Padding="20" Opacity="0">
+        <Border.Effect>
+            <DropShadowEffect Color="Black" BlurRadius="20" Opacity="0.3" ShadowDepth="5"/>
+        </Border.Effect>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" Text="✨ SQL FORGE STUDIO" Foreground="{DynamicResource AccentPrimary}" FontSize="22" FontWeight="Black" HorizontalAlignment="Center" Margin="0,10,0,5"/>
+            <TextBlock Grid.Row="0" Text="v2.0 Enterprise" Foreground="{DynamicResource TextMuted}" FontSize="12" HorizontalAlignment="Center" Margin="0,40,0,0"/>
+
+            <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock Text="Designed and Developed by SPRX77" Foreground="{DynamicResource TextPrimary}" FontSize="16" FontWeight="SemiBold" HorizontalAlignment="Center"/>
+                <TextBlock Text="Powered by Local AI &amp; Multi-Engine Architecture" Foreground="{DynamicResource TextMuted}" FontSize="13" HorizontalAlignment="Center" Margin="0,5,0,0"/>
+            </StackPanel>
+
+            <Button Grid.Row="2" Content="CLOSE" Width="100" HorizontalAlignment="Center" Click="BtnClose_Click"/>
+        </Grid>
+    </Border>
+</Window>

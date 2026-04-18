@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "psrqsYgieaM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sarat\\source\\repos\\SqlForgeWpf\\SqlForgeWpf\\SqlForgeWpf.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sarat\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
+    "C:\\Users\\sarat\\.nuget\\packages\\google.protobuf\\3.32.0\\google.protobuf.3.32.0.nupkg.sha512",
+    "C:\\Users\\sarat\\.nuget\\packages\\k4os.compression.lz4\\1.3.8\\k4os.compression.lz4.1.3.8.nupkg.sha512",
+    "C:\\Users\\sarat\\.nuget\\packages\\k4os.compression.lz4.streams\\1.3.8\\k4os.compression.lz4.streams.1.3.8.nupkg.sha512",
+    "C:\\Users\\sarat\\.nuget\\packages\\k4os.hash.xxhash\\1.0.8\\k4os.hash.xxhash.1.0.8.nupkg.sha512",
+    "C:\\Users\\sarat\\.nuget\\packages\\materialdesigncolors\\5.3.1\\materialdesigncolors.5.3.1.nupkg.sha512",
+    "C:\\Users\\sarat\\.nuget\\packages\\materialdesignthemes\\5.3.1\\materialdesignthemes.5.3.1.nupkg.sha512",
+    "C:\\Users\\sarat\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\sarat\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.0\\microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\sarat\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.77\\microsoft.xaml.behaviors.wpf.1.1.77.nupkg.sha512",
+    "C:\\Users\\sarat\\.nuget\\packages\\mysql.data\\9.6.0\\mysql.data.9.6.0.nupkg.sha512",
+    "C:\\Users\\sarat\\.nuget\\packages\\npgsql\\10.0.2\\npgsql.10.0.2.nupkg.sha512",
+    "C:\\Users\\sarat\\.nuget\\packages\\oracle.manageddataaccess.core\\23.26.200\\oracle.manageddataaccess.core.23.26.200.nupkg.sha512",
+    "C:\\Users\\sarat\\.nuget\\packages\\system.data.sqlite\\2.0.3\\system.data.sqlite.2.0.3.nupkg.sha512",
+    "C:\\Users\\sarat\\.nuget\\packages\\system.directoryservices.protocols\\8.0.2\\system.directoryservices.protocols.8.0.2.nupkg.sha512",
+    "C:\\Users\\sarat\\.nuget\\packages\\zstdsharp.port\\0.8.6\\zstdsharp.port.0.8.6.nupkg.sha512"
+  ],
+  "logs": []
+}
